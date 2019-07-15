@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Вхід</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a class="logo" href="index.html" title="На головну">
+                <span>Y</span>
+                <span>R</span>
+                <span>G</span>
+                <span>E</span>
+                <span>O</span>
+            </a>
+            <div class="nav-toggle"><span></span></div>
+            <ul id="menu">
+                <li><a href="games.html">ІГРИ</a></li>
+                <li><a href="tracker.html">КРОКОМІР</a></li>
+                <li><a href="health.html">ЗДОРОВ'Я</a></li>
+                <li><a href="blog.html">БЛОГ</a></li>
+                <li></li>
+                <li></li>
+                <li><a href="entry.html">ВХІД <i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+                <li><a href="registration.html">РЕЄСТРАЦІЯ <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-col"><span>YrGeo © 2019</span></div>
+            <div class="footer-col">
+                <div class="social-bar-wrap">
+                    <a title="Facebook" href="" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a title="Twitter" href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a title="Pinterest" href="" target="_blank"><i class="fa fa-pinterest"></i></a>
+                    <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <a href="https://www.blockchain.com/btc/address/133HWuiFMozf25rou4xc8CKVUM3xXKXJKR"><i class="fa fa-btc" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('.nav-toggle').on('click', function() {
+            $('#menu').toggleClass('active');
+        });
+    </script>
+</body></html>
